@@ -1,0 +1,2 @@
+#ghi chú
+print ("hello")

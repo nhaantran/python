@@ -1,0 +1,16 @@
+a= id(9)
+print(a)
+b= id(a)
+print(b)
+c= id('Nhân')
+print(c)
+d= id(3)
+print(d)
+
+n= 69
+print(n)
+print(n+2)
+print(n.__add__(2))
+print(n.__sub__(3))
+print(n.__mul__(2))
+print(n.__neg__()) #= print(-n)

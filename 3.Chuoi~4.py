@@ -1,0 +1,22 @@
+a= 'nhaNB TRAN'
+b= a.capitalize()
+c= a.casefold()
+print(b)
+print(c)
+e= 'keo co'
+d= e.title()
+print(d)
+g= 'truong thpt BTX'
+h= g.center(62,'*')
+#h= g.rjust(62,'*')
+#h= g.ljust(62,'*')
+print(h)
+l= a.join(('1','2',"3"))
+print(l)
+m= a.replace('N','v',1)
+print(m)
+n= g.strip('truong ')
+#n= g.rstrip('T')
+#n= g.lstrip('T')
+print(n)
+print("I'm coming back")
